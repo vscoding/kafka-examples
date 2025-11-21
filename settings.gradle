@@ -7,6 +7,8 @@ pluginManagement {
 
 rootProject.name = "kafka-examples"
 
-include("kafka-commons")
-include("kafka-consumer")
-include("kafka-producer")
+include("metadata")
+
+include("spring-boot:kafka-commons")
+include("spring-boot:kafka-consumer")
+include("spring-boot:kafka-producer")

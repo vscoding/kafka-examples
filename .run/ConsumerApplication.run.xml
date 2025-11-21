@@ -4,7 +4,7 @@
       <env name="KAFKA_BROKERS" value="dev.iproute.org:9092" />
       <env name="KAFKA_DEFAULT_TOPIC" value="test" />
     </envs>
-    <module name="kafka-examples.kafka-consumer.main" />
+    <module name="kafka-examples.spring-boot.kafka-consumer.main" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="org.iproute.kafka.consumer.ConsumerApplication" />
     <extension name="coverage">
       <pattern>
